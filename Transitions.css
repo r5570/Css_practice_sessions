@@ -12,15 +12,16 @@ body{
     height: 200px;
     border: 1px solid;
     background-color: skyblue;
-    transition-property:transform;
+    /* transition-property:transform;
     transition-duration: 980ms;
     transition-timing-function: ease;
-    transition-delay:30ms;
+    transition-delay:30ms; */
+    transition: transform 980ms ease 30ms;
 }
 
 .box:hover{
 
     background:brown;
-    transform: rotate(50deg) skew(80deg);
+    transform: rotate(50deg) skewY(90deg);
 
 }
